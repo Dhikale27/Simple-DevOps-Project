@@ -17,4 +17,7 @@ Git is one of the most popular tools for version control system. you can pull co
 
 - Configure git path
   - `Manage Jenkins` > `Global Tool Configuration` > `git`
+  - In Path to Git executable
+   - we can use `git` only
+   - if above not work then add git path (to get git path use comand in linux terminal # `whereis git`)
 
