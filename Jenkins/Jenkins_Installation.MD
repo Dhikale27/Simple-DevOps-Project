@@ -28,8 +28,14 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
 
    ### Start Jenkins
    ```sh
+   # check jenkins service status
+   service jenkins status
+   
    # Start jenkins service
    service jenkins start
+   
+   # Stop jenkins service
+   service jenkins stop
 
    # Setup Jenkins to start at boot,
    chkconfig jenkins on
